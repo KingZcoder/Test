@@ -12,7 +12,7 @@ import java.net.URLEncoder;
 public class tuling{
   public static void main(String[] args) throws IOException { 
       String APIKEY = "e7a1447ed2182d57758ca845e5a0f36e"; 
-      String question = "呼和浩特天气怎么样?";//这是上传给云机器人的问题
+      String question = "巴彦淖尔天气怎么样?";//这是上传给云机器人的问题
       //String INFO = URLEncoder.encode("北京今日天气", "utf-8"); 
       String INFO = URLEncoder.encode(question, "utf-8"); 
       String getURL = "http://www.tuling123.com/openapi/api?key=" + APIKEY + "&info=" + INFO; 
